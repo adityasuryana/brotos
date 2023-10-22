@@ -1,0 +1,275 @@
+@font-face {
+    font-family: 'Larken';
+    src: url('../assets/font/Larken.otf');
+}
+
+@font-face {
+    font-family: 'Larken-Thin';
+    src: url('../assets/font/Larken-Thin.otf');
+}
+
+@font-face {
+    font-family: 'Larken-Light';
+    src: url('../assets/font/Larken-Light.otf');
+}
+
+@font-face {
+    font-family: 'Larken-Medium';
+    src: url('../assets/font/Larken-Medium.otf');
+}
+
+@font-face {
+    font-family: 'Larken-Bold';
+    src: url('../assets/font/Larken-Bold.otf');
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+body {
+    font-family: 'Larken';
+}
+  
+a {
+    text-decoration: none!important;
+  }
+
+.navbar-brand {
+    font-family: 'Larken';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.header {
+    margin: 0 auto;
+    display: inline-grid;
+}
+
+.fw-light {
+    font-family: 'Larken-Light';
+}
+
+.fw-medium {
+    font-family: 'Larken-Medium';
+}
+
+.fw-bold {
+    font-family: 'Larken-Bold';
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.fs-35 {
+    font-size: 35px;
+}
+
+.fs-40 {
+    font-size: 40px;
+}
+
+.d-contents {
+    display: contents;
+}
+
+.d-block {
+    display: block;
+}
+
+.bg-red {
+    background-color: #D72929!important;
+}
+
+.header-text {
+    color: #000;
+    font-family: 'Larken-Bold';
+    font-size: 65px;
+    font-style: normal;
+    text-transform: capitalize;
+}
+
+.head-title {
+    color: #000;
+    font-family: 'Larken-Medium';
+    font-size: 30px;
+}
+
+.sub-title {
+    color: #000;
+    font-family: 'Larken-Medium';
+    font-size: 20px;
+}
+
+.sub-par {
+    color: #333;
+    text-align: center;
+    font-family: 'Larken-Light';
+    font-size: 20px;
+}
+
+.centered-title {
+    color: #000;
+    font-family: 'Larken-Bold';
+    font-size: 40px;
+    text-align: center;
+}
+
+.form-label {
+    color: #333;
+    font-family: 'Larken';
+    font-size: 20px;
+}
+
+.form-control {
+    border-radius: 15px;
+    background: #F9F9F9;
+    padding: 15px;
+    border: none;
+}
+
+.black-button {
+    font-family: 'Larken-Medium';
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+    border-radius: 30px;
+    border:none;
+    background-color: #000 !important;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.tb-button {
+    font-family: 'Larken-Bold';
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 30px;
+    border:none;
+    background-color: #000 !important;
+    padding: 10px;
+    text-align: center;
+}
+
+.delete-button {
+    font-family: 'Larken-Bold';
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 30px;
+    border:none;
+    background-color: #D72929 !important;
+    padding: 10px;
+    text-align: center;
+}
+
+.cancel-button {
+    font-family: 'Larken-Bold';
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+.cancel-button:hover {
+    border: 1px solid black!important;
+}
+
+.gray-button {
+    font-family: 'Larken-Light';
+    color: rgba(0, 0, 0, 0.70);
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.bg-gray {
+    background-color: #F9F9F9;
+}
+
+.navbar-bottom {
+    padding: 20px 40px; 
+    border-radius: 15px;
+    background-color: #F9F9F9;
+    font-family: 'Larken-Light';
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    background-color: #F9F9F9;
+}
+
+.nav-item a {
+    font-size: 12px;
+}
+
+.nav-item i {
+    font-size: 25px;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+    font-family: 'Larken-Light';
+    background-color: white;
+    border-radius: 10px!important;
+    padding: 10px 20px;
+  }
+  
+  .dataTables_wrapper .dataTables_filter input:focus {
+    border-color: var(--green);
+    outline: none;
+  }
+
+.dataTables_wrapper .dataTables_filter {
+    float: left!important;
+    text-align: left!important;
+    margin-bottom: 1.5rem;
+  }
+  
+  .dataTables_wrapper .dataTables_length {
+    float: right!important;
+  }
+  
+  .dataTables_info {
+    display: none ;
+  }
+  
+  .dataTables_wrapper .dataTables_paginate {
+    margin-top: 10px;
+    float: none!important;
+    text-align: center!important;
+  }
+  
+  .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    color: #333 !important;
+    border-radius: 10px;
+    background: var(--light)!important;
+    border: 1px solid rgba(0, 0, 0, 0.3)!important;
+  }
+  
+  .dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    border-radius: 10px;
+    background: var(--light) !important;
+  }
